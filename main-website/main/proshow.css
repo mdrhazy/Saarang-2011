@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#pro_maindiv {
+    position:absolute;
+    left:190px;
+    top:-40px;
+    width:800px;
+    height:722px;
+	color:white;
+	font-family:"Myriad Pro";
+	font-size: 20px;
+	line-height: 25px;
+	text-align:center;
+}
+
+#Saarang_Websitepro_Design2_03 {
+    position:absolute;
+    left:259px;
+    top:129px;
+    width:102px;
+    height:77px;
+	background-color:#56b5e4;
+	padding-top: 25px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Websitepro_Design2_06 {
+    position:absolute;
+    left:496px;
+    top:130px;
+    width:102px;
+    height:88px;
+	background-color:#abdb16;
+	padding-top:13px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Websitepro_Design2_08 {
+    position:absolute;
+    left:361px;
+    top:231px;
+    width:135px;
+    height:135px;
+	background-color: #CCC;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Websitepro_Design2_13 {
+    position:absolute;
+    left:259px;
+    top:366px;
+    width:102px;
+    height:77px;
+	background-color:#abdb16;
+	padding-top:25px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Websitepro_Design2_16 {
+    position:absolute;
+    left:496px;
+    top:366px;
+    width:101px;
+    height:76px;
+	background-color:#56b5e4;
+	cursor: pointer;
+	padding-top:25px;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#close_pro {
+	position:absolute;
+	left:318px;
+	top:78px;
+	width:34px;
+	height:34px;
+	background-image:url(images/close_pro.jpg);
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Websitepro_Design2_23 {
+    position:absolute;
+    left:158px;
+    top:468px;
+    width:101px;
+    height:76px;
+	background-color:#e05925;
+	padding-top:25px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Websitepro_Design2_26 {
+    position:absolute;
+    left:596px;
+    top:467px;
+    width:101px;
+    height:101px;
+	background-image:url(images/pro_head.jpg);
+	opacity:0;
+	filter: alpha(opacity = 0);
+}

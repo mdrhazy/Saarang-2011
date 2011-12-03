@@ -1,0 +1,340 @@
+<html>
+<head>
+<title>Saarang Website Design2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Save for Web Styles (Saarang Website Design2.psd) -->
+<!--<link rel="stylesheet" href="jQueryZoom_files/style.css" type="text/css" media="screen">-->
+		<link rel="stylesheet" href="./style/zoomooz.css" type="text/css" media="screen" />
+		<link href="./files/css.css" rel="stylesheet" type="text/css">
+		<link href="./files/css_002.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="hospi_page.css" type="text/css">
+		 <link rel="stylesheet" href="proshow.css" type="text/css">
+		  <link rel="stylesheet" href="spotlight.css" type="text/css">
+		<!--<link rel="stylesheet" href="style.css" type="text/css" media="screen" />-->
+        <script src="./files/jquery_003.js" type="text/javascript"></script>
+		<script type="text/javascript" src="./lib/jquery-1.4.4.js"></script>
+		<script type="text/javascript" src="./lib/sylvester.js"></script>
+		<script type="text/javascript" src="./js/purecssmatrix.js"></script>
+		<script type="text/javascript" src="./js/jquery.animtrans.js"></script>
+		<script type="text/javascript" src="./js/jquery.zoomooz.js"></script>
+		
+		<script type="text/javascript">
+		settings = {
+	// zoomed size relative to screen
+	// 0.0-1.0
+	targetsize: 0.6,
+	// scale content to screen based on their size
+	// "width"|"height"|"both"
+	scalemode: "both",
+	// animation duration
+	duration: 250,
+	// easing of animation, similar to css transition params
+	// "linear"|"ease"|"ease-in"|"ease-out"|
+	// "ease-in-out"|[p1,p2,p3,p4]
+	// [p1, p2, p3, p4] refer to cubic-bezier curve params
+	easing: "ease",
+	// use browser native animation in webkit
+	// true|false
+	nativeanimation: true
+}
+		var url = 'data.html';
+			$(document).ready(function() {
+				$.zoomMooz.setup({root:$("#container")});
+				$(".zoom").click(function(evt) {
+					evt.stopPropagation();
+					$(this).zoomTo(settings);
+				});
+				$(window).click(function(evt) {
+					evt.stopPropagation();
+					$("#container").zoomTo(settings);
+				});
+				
+				$(".out").click(function(evt) {
+					evt.stopPropagation();
+					$("#container").zoomTo(settings);
+				});
+				$("#container").zoomTo(settings);
+			});
+	
+	function breakout_of_frame()
+{
+  // see http://www.thesitewizard.com/archive/framebreak.shtml
+  // for an explanation of this script and how to use it on your
+  // own website
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+}
+
+		</script>
+        
+<script type="text/javascript">
+
+/***********************************************
+* Disable Text Selection script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+function disableSelection(target){
+if (typeof target.onselectstart!="undefined") //IE route
+	target.onselectstart=function(){return false}
+else if (typeof target.style.MozUserSelect!="undefined") //Firefox route
+	target.style.MozUserSelect="none"
+else //All other route (ie: Opera)
+	target.onmousedown=function(){return false}
+target.style.cursor = "default"
+}
+
+//Sample usages
+//disableSelection(document.body) //Disable text selection on entire body
+//disableSelection(document.getElementById("mydiv")) //Disable text selection on element with id="mydiv"
+
+window.onload = function() {
+  document.onselectstart = function() {return false;} // ie
+  document.onmousedown = function() {return false;} // mozilla
+}
+
+
+/* You can attach the landing5 to any element. In the following example
+I'll disable selecting text in an element with the id 'content'. */
+
+window.onload = function() {
+  var element = document.getElementById('spotlight');
+  element.onselectstart = function () { return false; } // ie
+  element.onmousedown = function () { return false; } // mozilla
+  element = document.getElementById('landing5');
+  element.onselectstart = function () { return false; } // ie
+  element.onmousedown = function () { return false; } // mozilla
+  element = document.getElementById('main');
+  element.onselectstart = function () { return false; } // ie
+  element.onmousedown = function () { return false; } // mozilla
+  element = document.getElementById('sponsors');
+  element.onselectstart = function () { return false; } // ie
+  element.onmousedown = function () { return false; } // mozilla
+  element = document.getElementById('proshows');
+  element.onselectstart = function () { return false; } // ie
+  element.onmousedown = function () { return false; } // mozilla
+  element = document.getElementById('hospitality');
+  element.onselectstart = function () { return false; } // ie
+  element.onmousedown = function () { return false; } // mozilla
+  element = document.getElementById('random');
+  element.onselectstart = function () { return false; } // ie
+  element.onmousedown = function () { return false; } // mozilla
+  
+  //$('#Saarang-Website-Design2-05').height($(document).height());
+}
+
+  
+
+</script>
+<link href="landing_css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jquery.effects.core.js"></script>
+<script>
+</script>
+<!-- Save for Web Styles (escape.jpg) -->
+<link href="events.css" type="text/css" rel="stylesheet">
+<!-- End Save for Web Styles -->
+</head>
+<body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;" onLoad="breakout_of_frame();">
+<!-- Save for Web Slices (Saarang Website Design2.psd) -->
+<div id = "container">
+
+<div id="landing_table">
+	
+	
+	<div id="Saarang-Website-Design2-03">
+	<div id="random" class="zoom"><center><div id="apDiv3">Random</div></center></div>
+<div id="hospitality" ><center><div id="apDiv1">Hospitality</div></center></div>
+<div id="spotlight" ><center><div id="apDiv4">Spotlight</div></center></div>
+
+
+<div id="sponsors" class="zoom"><center><div id="apDiv5">Sponsors<br/>&amp;<br/>Media</div></center></div>
+<div id="proshows" ><center><div id="apDiv6">Proshows</div></center></div>
+<div id="landing5"><center><div id="apDiv2">Events</div></center></div>
+<div id="main" class="zoom"><img src="images/strip.png" width="148" height="148" alt="rockshow"></div>
+</div>	
+</div>
+	
+<div id="Table_01">
+  <div id="cancel">
+	  <img src="images/cancel.jpg" width="34" height="34" alt="">
+  </div>
+  <div id="Events">
+	  <img src="images/Events.jpg" width="113" height="112" alt="">
+  </div>
+  <div id="cat3" class="zoom">
+  </div>
+    <div id="cat9" class="zoom">
+    </div>
+  <div id="cat4" class="zoom">
+  </div>
+    <div id="cat10" class="zoom">
+  </div>
+  <div id="cat2" class="zoom">
+  </div>
+  <div id="cat7" class="zoom">
+  </div>
+  <div id="cat8" class="zoom">
+  </div>
+    <div id="cat11" class="zoom">
+  </div>
+    <div id="cat12" class="zoom">
+  </div>
+	<div id="cat6" class="zoom">
+  </div>
+  <div id="mainbox" class="zoom">
+  </div>
+	<div id="cat1" class="zoom">
+	</div>
+	<div id="cat5" class="zoom">
+	</div>
+    <div id="canceltab" class="out"><center>x</center></div>
+    <div id="infotab" style="visibility:hidden"><center>i</center></div>
+</div>
+
+<!--Spotlight-->
+
+<div id="spot_maindiv">
+    <div id="close_spot"></div>
+    <div id="spotlight_head"></div>
+    <div id="Saarang_Website_Design2_08" class="zoom">Indian<br />SuDoKu<div id="champ">Championship</div></div>
+    <div id="Saarang_Website_Design2_11" class="zoom">Saarang<br/>Classical<br/>Arts Utsav</div>
+    <div id="Saarang_Website_Design2_13" class="zoom">Impact</div>
+    <div id="Saarang_Website_Design2_17" class="zoom">Saarang<br/>Village</div>
+    <div id="Saarang_Website_Design2_20" class="zoom">$treet$</div>
+    <div id="Saarang_Website_Design2_23" class="zoom">Panache<br/>The Culture<br/>Show</div>
+    <div id="Saarang_Website_Design2_26" class="zoom">Lectures<br />&amp <br />Demos</div>
+    <div id="Saarang_Website_Design2_29" class="zoom">Dreams<br/>On<br/>Canvas</div>
+</div>
+
+<!--Proshow-->
+<div id="pro_maindiv" style="left:190px">
+    <div id="Saarang_Websitepro_Design2_03" class="zoom">Classical<br />Night</div>
+    <div id="Saarang_Websitepro_Design2_06" class="zoom">World<br />Culture<br />Show</div>
+    <div id="Saarang_Websitepro_Design2_08" class="zoom"></div>
+    <div id="Saarang_Websitepro_Design2_13" class="zoom">Rock<br />Show</div>
+    <div id="Saarang_Websitepro_Design2_16" class="zoom">Popular<br />Night</div>
+    <div id="close_pro"></div>
+    <div id="Saarang_Websitepro_Design2_23" class="zoom">Choreo<br />Night</div>
+    <div id="Saarang_Websitepro_Design2_26"></div>
+</div>
+
+<!--Hospi-->
+<div id="spons_maindiv">
+    <div id="hospi-page-03" class="zoom">
+	Reaching<br />IITM
+    </div>
+    <div id="hospi-page-06" class="zoom">
+	Contact
+    </div>
+    <div id="hospi-page-07" class="zoom">
+	Hospi<br />Desk
+    </div>
+    <div id="hospi-page-10" class="zoom">
+	Information
+    </div>
+    <div id="hospi-page-13" class="zoom">
+	Introduction
+    </div>
+    <div id="hospi-page-15" class="zoom">
+	Alternate<div class="acco">Accomodation</div>
+    </div>
+    
+    <div id="hospi-page-18"></div>
+    <div id="hospi-page-20"></div>
+    
+    <div id="hospi-page-22" class="zoom">
+	<div class="acco">Accomodation</div>Portal
+    </div>
+    <div id="hospi-page-26" class="zoom">
+	Control<br />Room
+    </div>
+</div>
+
+
+</div>
+
+    <div id="left-shadow">
+		<img src="images/left-shadow.png" width="19" height="736" alt="">
+	</div>
+    
+<div id="Saarang-Website-Design2-05">
+<div id="right-shadow">
+		<img src="images/right-shadow.png" width="19" height="740" alt="">
+	</div>
+</div>
+
+	<div id="spons-ticker">
+    Correct the allignment of the boxes of your respective pages here.
+   		<img src="images/spons-ticker.jpg" width="170" height="170" alt="">
+	</div>
+<div id="update-ticker">
+		<img src="images/update-ticker.jpg" width="170" height="172" alt="">
+</div>
+	<div id="Saarang-Website-Design2-11"></div>
+    <div id="Saarang-Website-Design2-01">
+<img src="images/saaranglogo.png" width="240" height="80"/></div>
+<div id="opacity" style="opacity:1;">
+<img src="images/rhs.png" width="220" height="73" alt="logos"></div>
+</div>
+
+
+
+
+<script type="text/javascript" src="events.js">
+</script>
+<script type="text/javascript" src="spotlight.js">
+</script>
+<script type="text/javascript" src="proshow.js">
+</script>
+<script type="text/javascript" src="landing_js.js">
+</script>
+<script type="text/javascript" src="hospi_page.js">
+</script>
+<script>
+
+var url = 'data.html';
+var present;
+$("#cat1, #cat2, #cat3, #cat4, #cat5, #cat6, #cat7, #cat8, #cat9, #cat10, #cat11, #cat12, #mainbox").click(function () {
+  $("#canceltab").css("visibility","visible");
+  if(present){
+	  $(present).html("");
+  }
+  present = '#' + this.id;
+  $("#canceltab").show();
+  var color = $(this).css("background-color");
+ 
+  $("#canceltab").css('background-color', color);
+  
+  $("#canceltab").css('left', parseInt($(this).css("left")) + 109.5 + "px")
+  $("#canceltab").css('top', parseInt($(this).css("top")) + 1 + "px")
+  //$("#result").html("That div is <span style='color:" +
+                     //color + ";'>" + color + "</span>.");
+
+});
+$("#cat1, #cat2, #cat3, #cat4, #cat5, #cat6, #cat7, #cat8, #cat9, #cat10, #cat11, #cat12, #mainbox").click(function () {
+  $("#infotab").css("visibility","visible");
+  $("#infotab").show();
+  var color = $(this).css("background-color");
+ 
+  $("#infotab").css('background-color', color);
+  
+  $("#infotab").css('left', parseInt($(this).css("left")) + 109.5 + "px")
+  $("#infotab").css('top', parseInt($(this).css("top")) + 20 + "px")
+  //$("#result").html("That div is <span style='color:" +
+                     //color + ";'>" + color + "</span>.");
+
+});
+$("#canceltab").click(function () {$("#canceltab, #infotab").hide();
+$(present).html("");
+
+});
+$("#infotab").click(function () {$(present).load(url + " " + "#info1");
+
+});
+</script>
+<!-- End Save for Web Slices -->
+
+</body>
+</html>

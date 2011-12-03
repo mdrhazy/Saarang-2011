@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Table_01 {
+	position:absolute;
+	left:0px;
+	top:75px;
+	width:1170px;
+	height:527px;
+	margin:auto;
+}
+
+#escape-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1170px;
+	height:10px;
+	cursor: pointer;
+}
+
+#cancel {
+	position:absolute;
+	left:900px;
+	top:8px;
+	width:34px;
+	height:33px;
+	cursor: pointer;
+}
+#canceltab {
+	position:absolute;
+	width:20px;
+	height:20px;
+
+	//padding:1px;
+	//padding-top:1px;
+	//padding:0;
+	cursor: pointer;
+	padding-bottom:4px;
+	//margin-bottom:1px;
+	border:thin #999 solid;
+	left: 797px;
+	top: -33px;
+	color: #FFF;
+	visibility:hidden;
+	font-family: "Myriad Pro";
+}
+#infotab {
+	position:absolute;
+	width:20px;
+	height:20px;
+
+	//padding:1px;
+	padding-bottom:1px;
+
+	//padding-top:1px;
+	//padding:0;
+	cursor: pointer;
+	border:thin #999 solid;
+	left: 797px;
+	top: -33px;
+	color: #FFF;
+	font-family: "Myriad Pro";
+}
+#evtTrig {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:69px;
+	height:70px;
+	cursor: pointer;
+}
+
+#escape-04 {
+	position:absolute;
+	left:968px;
+	top:10px;
+	width:202px;
+	height:517px;
+	cursor: pointer;
+}
+
+#escape-05 {
+	position:absolute;
+	left:899px;
+	top:80px;
+	width:69px;
+	height:447px;
+	cursor: pointer;
+}
+
+#escape-06 {
+	position:absolute;
+	left:0px;
+	top:189px;
+	width:242px;
+	height:338px;
+	cursor: pointer;
+}
+
+#Events {
+	position:absolute;
+	left:682px;
+	top:-32px;
+	width:109px;
+	height:112px;	
+}
+
+#escape-08 {
+	position:absolute;
+	left:355px;
+	top:189px;
+	width:109px;
+	height:112px;
+	cursor: pointer;
+}
+
+#cat3 {
+	position:absolute;
+	left:462px;
+	top:189px;
+	width:110px;
+	height:110px;
+	background-color:rgb(96,56,18);
+	cursor: pointer;
+}
+
+#cat9 {
+	position:absolute;
+	left:462px;
+	top:-31px;
+	width:110px;
+	height:110px;
+	//background-color:rgb(240,181,30);
+	background-color:#abdb16;
+	cursor: pointer;
+}
+
+#cat7 {
+	position:absolute;
+	left:572px;
+	top:79px;
+	width:110px;
+	height:110px;
+	//background-color:rgb(240,181,30);
+	background-color:#e05925;
+	cursor: pointer;
+}
+
+#cat8 {
+	position:absolute;
+	left:792px;
+	top:79px;
+	width:110px;
+	height:110px;
+	//background-color:rgb(240,181,30);
+	background-color:#e05925;
+	cursor: pointer;
+}
+
+#cat11 {
+	position:absolute;
+	left:792px;
+	top:299px;
+	width:110px;
+	height:110px;
+	//background-color:rgb(96,56,18);
+	background-color:#abdb16;
+	cursor: pointer;
+}
+
+#cat12 {
+	position:absolute;
+	left:902px;
+	top:189px;
+	width:110px;
+	height:110px;
+	background-color:rgb(96,56,18);
+	cursor: pointer;
+}
+
+#escape-10 {
+	position:absolute;
+	left:573px;
+	top:189px;
+	width:109px;
+	height:112px;
+	cursor: pointer;
+}
+
+#cat4 {
+	position:absolute;
+	left:682px;
+	top:189px;
+	width:110px;
+	height:110px;
+	cursor: pointer;
+}
+
+
+#cat10 {
+	position:absolute;
+	left:242px;
+	top:189px;
+	width:110px;
+	height:110px;
+	cursor: pointer;
+}
+
+#escape-12 {
+	position:absolute;
+	left:791px;
+	top:300px;
+	width:108px;
+	height:227px;
+	cursor: pointer;
+}
+
+#escape-13 {
+	position:absolute;
+	left:242px;
+	top:301px;
+	width:113px;
+	height:111px;
+	cursor: pointer;
+}
+
+#cat2 {
+	position:absolute;
+	left:352px;
+	top:299px;
+	width:110px;
+	height:110px;
+	background-color:#abdb16;
+	cursor: pointer;
+}
+
+#cat6 {
+	position:absolute;
+	left:352px;
+	top:79px;
+	width:110px;
+	height:110px;
+	background-color:#e05925;
+	cursor: pointer;
+}
+
+#mainbox {
+	position:absolute;
+	//left:464px;
+	//top:301px;
+	//width:218px;
+	//height:226px;
+	left:572px;
+	top:299px;
+	width:110px;
+	height:110px;
+	//background-color:rgb(240,181,30);
+	background-color:#abdb16;
+	cursor: pointer;
+}
+
+#escape-16 {
+	position:absolute;
+	left:682px;
+	top:301px;
+	width:109px;
+	height:111px;
+	cursor: pointer;
+}
+
+#cat1 {
+	position:absolute;
+	//left:242px;
+	left:462px;
+	top:409px;
+	width:110px;
+	height:110px;
+	cursor: pointer;
+}
+
+#escape-18 {
+	position:absolute;
+	left:355px;
+	top:412px;
+	width:109px;
+	height:115px;
+	cursor: pointer;
+}
+
+#cat5 {
+	position:absolute;
+	left:682px;
+	top:409px;
+	width:110px;
+	height:110px;
+	cursor: pointer;
+}
+
+
+#cat1,#cat2,#cat3,#cat4,#cat5,#cat6,#cat7,#cat8,#cat9,#cat10,#cat11,#cat12,#cancel,#Events,#mainbox{
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#cat1,#cat5{
+	background-color:#e05925;
+}
+
+#cat10,#cat3,#cat4,#cat12{
+	background-color:#56b5e4;
+}

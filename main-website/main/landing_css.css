@@ -1,0 +1,325 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+overflow:hidden;	
+}
+#landing_table {
+	position:absolute;
+	left:0px;
+	top:-50px;
+	width:1250px;
+	height:731px;
+	//margin: 0px auto 0px auto;
+	margin-left:auto;
+	margin-right:auto;
+	//overflow:hidden;
+}
+#landingcancel {
+	position:absolute;
+	width:100px;
+	height:100px;
+	padding:1px;
+	padding-bottom:1px;
+	//padding:0;
+	cursor: pointer;
+	margin-bottom:1px;
+	left: 603px;
+	top: 331px;
+	//color: #FFF;
+	//background-color:#000;
+	//visibility:hidden;
+	z-index:10;
+}
+.container {
+	position:absolute;
+	//left:0px;
+	top:0px;
+	width:1350px;
+	height:731px;
+	margin-left: auto;
+        z-index:10;
+    margin-right: auto;
+	//overflow:hidden;
+}
+#random {
+	position:absolute;
+	left:50px;
+	top:526px;
+	width:125px;
+	height:125px;
+	z-index:1;
+	background-color:#abdb16;
+	opacity:0;
+	cursor: pointer;
+}
+#hospitality {
+	position:absolute;
+	left:190px;
+	top:386px;
+	width:125px;
+	height:125px;
+	z-index:20;
+	background-color:#56b5e4;
+	opacity:0;
+	cursor: pointer; 
+}
+#spotlight {
+	position:absolute;
+	left:195px;
+	top:107px;
+	width:125px;
+	height:125px;
+	z-index:3;
+	background-color:#e05925;
+	opacity:0;
+	cursor: pointer; 
+}
+#main {
+	position:absolute;
+	left:330px;
+	top:186px;
+	width:180px;
+	height:180px;
+	z-index:10;
+	background-color:#cdcdcd;
+	cursor: pointer; 
+	opacity:0;
+}
+#sponsors {
+	position:absolute;
+	left:530px;
+	top:305px;
+	width:125px;
+	height:125px;
+	z-index:5;
+	background-color:#56b5e4;
+	opacity:0;
+	cursor: pointer; 
+}
+#proshows {
+	position:absolute;
+	left:670px;
+	top:445px;
+	width:125px;
+	height:125px;
+	z-index:6;
+	background-color:#e05925;
+	opacity:0;
+	cursor: pointer; 
+}
+#landing5 {
+	position:absolute;
+	left:494px;
+	top:46px;
+	width:125px;
+	height:125px;
+	z-index:7;
+	background-color:#abdb16;
+	opacity:0;
+	cursor: pointer;
+}
+#apDiv1 {
+	position:absolute;
+	left:7px;
+	top:50px;
+	width:89px;
+	height:30px;
+	z-index:8;
+	font-family: "Myriad Pro";
+	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
+	cursor: pointer;
+	//font-stretch: ultra-expanded;
+}
+#apDiv2 {
+	position:absolute;
+	left:15px;
+	top:48px;
+	width:94px;
+	height:31px;
+	z-index:9;
+	font-family: "Myriad Pro";
+	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
+	cursor: pointer;
+}
+#apDiv3 {
+	position:absolute;
+	left:19px;
+	top:50px;
+	width:89px;
+	height:30px;
+	z-index:8;
+	font-family: "Myriad Pro";
+	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
+	cursor: pointer;
+
+	//font-stretch: ultra-expanded;
+}#apDiv4 {
+	position:absolute;
+	left:14px;
+	top:50px;
+	width:89px;
+	height:30px;
+	z-index:8;
+	font-family: "Myriad Pro";
+	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
+	cursor: pointer;
+	//font-stretch: ultra-expanded;
+}#apDiv5 {
+	position:absolute;
+	left:18px;
+	top:20px;
+	width:89px;
+	height:30px;
+	z-index:8;
+	font-family: "Myriad Pro";
+	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
+	cursor: pointer;
+	//font-stretch: ultra-expanded;
+}#apDiv6 {
+	position:absolute;
+	left:14px;
+	top:50px;
+	width:89px;
+	height:30px;
+	z-index:8;
+	font-family: "Myriad Pro";
+	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
+	cursor: pointer;
+	//font-stretch: ultra-expanded;
+}
+#Saarang-Website-Design2-01 {
+	position:absolute;
+	left:-20px;
+	top:30px;
+	width:237px;
+	//height:143px;
+	z-index:2;
+}
+
+#left-shadow {
+	position:absolute;
+	left:216px;
+	top:0px;
+	width:19px;
+	//height:731px;
+	z-index:3;
+	opacity:0.8;
+	height:100%;
+	background-image:url(images/left-shadow.png);
+	background-repeat:repeat-y;
+}
+
+#Saarang-Website-Design2-03 {
+	position:absolute;
+	left:256px;
+	top:0px;
+	width:789px;
+	//height:731px;
+	//opacity:0.8;
+	height:100%;
+}
+
+#right-shadow {
+	position:absolute;
+	left:-10px;
+	top:0px;
+	width:19px;
+	//height:731px;
+	opacity:0.8;
+	height:100%;
+	background-image:url(images/right-shadow.png);
+	background-repeat:repeat-y;
+}
+
+#Saarang-Website-Design2-05 {
+	position:absolute;
+	//left:1131px;
+	right:0px;
+	top:0px;
+	width:218px;
+	bottom:0px;
+	//height:731px;
+	height:100%;
+	background-color:#f7f7f7;
+	opacity:0.8;
+	height:100%;
+}
+#opacity {
+	position:absolute;
+	//left:1131px;
+	right:0px;
+	top:0px;
+	width:218px;
+	//height:731px;
+	//background-color:#f7f7f7;
+	//opacity:0.8;
+}
+#Saarang-Website-Design2-06 {
+	position:absolute;
+	left:0px;
+	top:143px;
+	width:39px;
+	height:588px;
+	//opacity:0.8;
+}
+
+#spons-ticker {
+	position:absolute;
+	left:29px;
+	top:233px;
+	width:170px;
+	height:170px;
+	z-index:2;
+}
+
+#Saarang-Website-Design2-08 {
+	position:absolute;
+	left:209px;
+	top:143px;
+	width:24px;
+	height:588px;
+	//opacity:0.8;
+}
+
+#Saarang-Website-Design2-09 {
+	position:absolute;
+	left:39px;
+	top:313px;
+	width:170px;
+	height:38px;
+	//opacity:0.8;
+}
+
+#update-ticker {
+	position:absolute;
+	left:29px;
+	top:471px;
+	width:170px;
+	height:172px;
+	z-index:2;
+}
+
+#Saarang-Website-Design2-11 {
+	position:absolute;
+	left:0px;
+	top:1px;
+	width:216px;
+	//height:734px;
+	z-index:1;
+	background-color:#f7f7f7;
+	opacity:0.8;
+	height:100%;
+}

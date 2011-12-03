@@ -1,0 +1,338 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: black;
+	text-align: center;
+}
+
+div#main_container {
+	position: relative;
+	width: 860px;
+	height: 720px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+/*----- SOCIAL LINKS -----*/
+
+#social_wrapper {
+	position:absolute;
+	left:57px;
+	top:17px;
+	width:762px;
+	height:72px;
+}
+
+#fb {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:59px;
+	height:64px;
+	background-image: url("images/fb.jpg");
+}
+
+#dots1 {
+	position:absolute;
+	left:59px;
+	top:0px;
+	width:166px;
+	height:64px;
+	background-image: url("images/dots.jpg");
+}
+
+#twit {
+	position:absolute;
+	left:225px;
+	top:0px;
+	width:58px;
+	height:64px;
+	background-image: url("images/twit.jpg");
+}
+
+#dots2 {
+	position:absolute;
+	left:283px;
+	top:0px;
+	width:166px;
+	height:64px;
+	background-image: url("images/dots.jpg");
+}
+
+#ytube {
+	position:absolute;
+	left:440px;
+	top:0px;
+	width:59px;
+	height:64px;
+	background-image: url("images/ytube.jpg");
+}
+
+#dots3 {
+	position:absolute;
+	left:499px;
+	top:0px;
+	width:166px;
+	height:64px;
+	background-image: url("images/dots.jpg");
+	background-position: -13px 0px;
+}
+
+#blog {
+	position:absolute;
+	left:647px;
+	top:0px;
+	width:116px;
+	height:64px;
+	background-image: url("images/blog.jpg");
+}
+
+.social_links {
+	background-position: 0px 0px;
+}
+
+.social_links:hover {
+	background-position: 0px 64px;
+}
+
+/*----- END OF SOCIAL LINKS -----*/
+
+.main_logo_wrapper {
+	position:absolute;
+	left:259px;
+	top:125px;
+	width:336px;
+    height:330px;
+    background-image:url(images/main_logo.jpg);
+}
+.main_logo_wrapper:hover {
+	background-position: 0px -331px;
+}
+a#main_logo {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:336px;
+    height:330px;
+}
+
+/*----- POPUP LINKS -----*/
+
+#popup_links_wrapper {
+	position:absolute;
+	left:13px;
+	top:523px;
+	width:836px;
+	height:53px;
+}
+
+#look_back {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:231px;
+	height:42px;
+	background-image: url("images/look_back.jpg");
+}
+
+#spons {
+	position:absolute;
+	left:307px;
+	top:0px;
+	width:275px;
+	height:42px;
+	background-image: url("images/spons.jpg");
+}
+
+#contact {
+	position:absolute;
+	left:653px;
+	top:0px;
+	width:178px;
+	height:42px;
+	background-image: url("images/contact.jpg");
+}
+
+.popup_links {
+	background-position: 0px 0px;
+}
+
+.popup_links:hover {
+	background-position: 0px 44px;
+}
+
+/*----- END OF POPUP LINKS -----*/
+
+#iitm_logo_wrapper {
+	position:absolute;
+	left:408px;
+	top:611px;
+	width:86px;
+	height:109px;
+}
+
+#iitm_logo {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:86px;
+	height:95px;
+	background-image: url("images/iitm_logo.jpg");
+	background-position: 0px 0px;
+}
+
+#iitm_logo:hover {
+	background-position: 0px 98px;
+}
+
+/*----- POPUPS -----*/
+
+#popup_lookback {
+	display: none;
+	position:relative;
+	top:200px;
+	width:733px;
+	height:233px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	background-image: url("images/popup_lookback.png");
+	background-position: 0px 0px;
+	z-index:2;
+}
+
+#lookback_close {
+	position:absolute;
+	right:40px;
+	top:40px;
+	width:15px;
+	height:15px;
+}
+
+#popup_spons {
+	display: none;
+	position:relative;
+	top:200px;
+	width:733px;
+	height:233px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	background-image: url("images/popup_spons.png");
+	background-position: 0px 0px;
+	z-index:2;
+	font-family: "Helvetica";
+	text-align: center;
+}
+
+#popup_contact {
+	display: none;
+	position:relative;
+	top:200px;
+	width:733px;
+	height:233px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	background-image: url("images/popup_spons.png");
+	background-position: 0px 0px;
+	z-index:2;
+	font-family: "Helvetica";
+}
+
+#popup_bg {
+	display:none;  
+	position:fixed; 
+	height:100%;  
+	width:100%;  
+	top:0px;  
+	left:0px;  
+	background-color: white;  
+	z-index:1;
+}
+
+#popup_spons p {
+	padding: 5px;
+	font-size: 16px;
+}
+
+#spons_title p {
+	position:absolute;
+	left:280px;
+	top:40px;
+	width:190px;
+	height:30px;
+	font-size: 25px;
+}
+
+#spons_anush {
+	position:absolute;
+	left:61px;
+	top:100px;
+	width:180px;
+	height:88px;
+}
+
+#spons_dhruv {
+	position:absolute;
+	left:283px;
+	top:100px;
+	width:165px;
+	height:88px;
+}
+
+#spons_sush {
+	position:absolute;
+	left:491px;
+	top:100px;
+	width:177px;
+	height:88px;
+}
+
+#spons_close {
+	position:absolute;
+	right:40px;
+	top:40px;
+	width:15px;
+	height:15px;
+}
+
+#contact_title {
+	position:absolute;
+	left:291px;
+	top:47px;
+	width:170px;
+	height:30px;
+	font-size: 25px;
+}
+
+#contact_title p {
+	font-size: 25px;
+}
+
+#contact_email {
+	position:absolute;
+	left:61px;
+	top:115px;
+	width:621px;
+	height:580px;
+	text-align: center;
+}
+
+#contact_email p {
+	font-size: 17px;
+	padding: 5px 5px 0px 0px;
+}
+
+#contact_close {
+	position:absolute;
+	right:40px;
+	top:37px;
+	width:15px;
+	height:15px;
+}

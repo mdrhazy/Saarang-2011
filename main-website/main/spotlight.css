@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#spot_maindiv {
+     position:absolute;
+    left:400px;
+    top:-100px;
+    width:800px;
+    height:722px;
+    margin:auto;
+	color:white;
+	font-family:"Myriad Pro";
+	font-size: 20px;
+	line-height: 25px;
+	text-align:center;
+}
+
+#close_spot {
+    position:absolute;
+    left:195px;
+    top:171px;
+    width:33px;
+    height:34px;
+	background-image: url(images/close_spot.jpg);
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#spotlight_head {
+    position:absolute;
+    left:228px;
+    top:201px;
+    width:102px;
+    height:103px;
+	background-color:#e05925;
+	background-image: url(images/spotlight_head.jpg);
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Website_Design2_08 {
+    position:absolute;
+    left:430px;
+    top:201px;
+    width:103px;
+    height:88px;
+	background-color:#abdb16;
+	padding-top: 13px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+#champ {
+	font-size:15px;
+}
+
+#Saarang_Website_Design2_11 {
+    position:absolute;
+    left:127px;
+    top:305px;
+    width:101px;
+    height:88px;
+	background-color:#abdb16;
+	padding-top:13px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Website_Design2_13 {
+    position:absolute;
+    left:330px;
+    top:302px;
+    width:100px;
+    height:66px;
+	background-color:#56b5e4;
+	padding-top:36px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Website_Design2_17 {
+    position:absolute;
+    left:533px;
+    top:302px;
+    width:101px;
+    height:66px;
+	background-color:#e05925;
+	padding-top:36px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Website_Design2_20 {
+    position:absolute;
+    left:229px;
+    top:404px;
+    width:101px;
+    height:65px;
+	background-color:#e05925;
+	padding-top: 36px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Website_Design2_23 {
+    position:absolute;
+    left:430px;
+    top:404px;
+    width:103px;
+    height:88px;
+	background-color:#abdb16;
+	padding-top: 13px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Website_Design2_26 {
+    position:absolute;
+    left:127px;
+    top:505px;
+    width:102px;
+    height:89px;
+	background-color:#56b5e4;
+	padding-top:12px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+#Saarang_Website_Design2_29 {
+    position:absolute;
+    left:700px;
+    top:800px;
+    width:101px;
+    height:88px;
+	background-color:#56b5e4;
+	padding-top: 13px;
+	cursor: pointer;
+	opacity:0;
+	filter: alpha(opacity = 0);
+}
+
+

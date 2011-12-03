@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#spons_maindiv {
+    position:absolute;
+    left:300px;
+    top:-50px;
+    width:800px;
+    height:722px;
+    margin:auto;
+	color:white;
+	font-family:"Myriad Pro";
+	font-size: 20px;
+	line-height: 25px;
+	text-align:center;
+}
+
+#hospi-page-03 {
+    position:absolute;
+    left:128px;
+    top:130px;
+    width:101px;
+    height:75px;
+	background-color:#abdb16;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+#hospi-page-06 {
+    position:absolute;
+    left:229px;
+    top:231px;
+    width:100px;
+    height:66px;
+	background-color:#e05925;
+	padding-top: 33px;
+	cursor: pointer;
+}
+
+#hospi-page-07 {
+    position:absolute;
+    left:430px;
+    top:231px;
+    width:102px;
+    height:75px;
+	background-color:#56b5e4;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+#hospi-page-10 {
+    position:absolute;
+    left:629px;
+    top:231px;
+    width:100px;
+    height:66px;
+	background-color:#e05925;
+	font-size: 19px;
+	padding-top: 33px;
+	cursor: pointer;
+}
+
+#hospi-page-13 {
+    position:absolute;
+    left:329px;
+    top:330px;
+    width:102px;
+    height:67px;
+	background-color:#abdb16;
+	font-size: 19px;
+	padding-top: 33px;
+	cursor: pointer;
+}
+
+#hospi-page-15 {
+    position:absolute;
+    left:530px;
+    top:330px;
+    width:99px;
+    height:76px;
+	background-color:#abdb16;
+	font-size: 21px;
+	padding-top: 25px;
+	cursor: pointer;
+}
+div.acco {
+	font-size: 15px;
+}
+
+#hospi-page-18 {
+    position:absolute;
+    left:195px;
+    top:398px;
+    width:34px;
+    height:33px;
+	background-image:url(images/hospi_18.jpg);
+	cursor: pointer;
+}
+#hospi-page-20 {
+    position:absolute;
+    left:228px;
+    top:431px;
+    width:101px;
+    height:102px;
+	background-image:url(images/hospi_20.jpg);
+}
+
+#hospi-page-22 {
+    position:absolute;
+    left:431px;
+    top:431px;
+    width:99px;
+    height:74px;
+	background-color:#e05925;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+#hospi-page-26 {
+    position:absolute;
+    left:530px;
+    top:530px;
+    width:101px;
+    height:75px;
+	background-color:#56b5e4;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+#hospi-page-03,#hospi-page-06,#hospi-page-07,#hospi-page-10,#hospi-page-13,#hospi-page-15,#hospi-page-18,#hospi-page-20,#hospi-page-22,#hospi-page-26{
+	opacity:0;
+}
